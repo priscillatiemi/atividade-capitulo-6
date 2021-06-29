@@ -1,0 +1,61 @@
+body{
+    background-color: #000000;
+}
+
+.titulo-home{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 6em;
+    text-align: center;
+  
+ 
+}
+
+
+
+.row{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+
+.form-select-div{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-select{
+    max-width: 400px;
+    
+}
+
+.adicionar-peso{
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-label{
+    color: white;
+}
+
+.adicionar-tempo{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.adicionar-data{
+    display: flex;
+    justify-content: center;
+}
+
+.form-control{
+    max-width: 150px;
+}

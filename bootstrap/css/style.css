@@ -1,0 +1,128 @@
+body{
+    background-color: #000000;
+}
+
+.titulo{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 6em;
+    text-align: center;
+    padding: 50px;
+ 
+}
+
+.navbar{
+    background-color: #AFAEAE;
+}
+
+.navbar .nav-text{
+    color: black;
+    align-items: center;
+    padding-left: 40em;
+    
+}
+
+.email-form{
+    color: white;
+}
+
+.senha-form{
+    color: white;
+    padding-top: 20px;
+}
+
+.confirmar-senha-form{
+    color: white;
+    padding-top: 20px;
+
+}
+
+.form-check{
+    color: white;
+
+    padding: 20px 0px 20px 320px ;
+}
+
+.link-cadastro{
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    
+}
+
+.cadastro{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+@media screen and (max-width:760px) {
+    .titulo{
+        color: white;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 5em;
+        display: inline-block;
+        text-align: center;
+        /*margin-left: 160px;
+        padding: 40px;*/
+        
+     
+    }
+    .navbar .nav-text{
+        color: black;
+        display: flex;
+        justify-content: center ;
+    
+        
+        
+        
+    }
+
+    .navbar{
+        background-color: #AFAEAE;
+        position: absolute;
+        width: fit-content;
+        
+    }
+
+    .email-form{
+        color: white;
+        
+    }
+    
+    .senha-form{
+        color: white;
+        padding-top: 20px;
+    }
+    
+    .confirmar-senha-form{
+        color: white;
+        padding-top: 20px;
+    
+    }
+    
+    .form-check{
+        color: white;
+    
+        padding: 20px 0px 20px 320px ;
+    }
+    
+    .link-cadastro{
+        color: white;
+        text-align: center;
+        padding: 20px 20px;
+        
+    }
+    
+    .cadastro{
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+/*Terminar Media screen*/
